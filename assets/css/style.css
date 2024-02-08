@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2d2d2d;
+    color: #ffffff;
+}
+
+.resume {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #1e1e1e;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+h2, h3 {
+    color: #ffcc00;
+}
+
+p {
+    color: #cccccc;
+    margin-bottom: 5px;
+}
+
+.contact,
+.education,
+.technical,
+.softskill,
+.Project {
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+ul.skills li {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #ffcc00;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #333333;
+}
